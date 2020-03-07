@@ -3,69 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mekides Bishaw</title>
+    <title>Contact Form</title>
+    <link rel="shortcut icon" type="image/png" href="C:\Users\i5\Desktop\asses\images\a.jpg">
 </head>
 <body>
-    <hr>
-    <a href="" target="_black" >Home</a><hr>
-     <a href="contact.html" target="_blank">contact</a>
+    <a href="contact.html" target="_blank">Home</a>
     <table>
         <tr>
             <td>
-                <img src="./assets/images/in.jpg" alt=”Mekides Profile Image">
-
+            <iframe width="600" height="500"
+            src="https://maps.google.com/maps?q=AAiT&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </td>
+        <td>
+            <table>
+                <tr>
+        <form method="POST" action="mailto,se.mekides.bishaw@gmail.com" enctype="utf-8">
+            <td><lable for="fname">first name</lable></td>
+            <td><input type="text" name="fname" id="fname" pattern="[A-Za-z]{4-12}"></td>
+           </tr>
+       
+           <tr> 
+               <td><lable for="fname">last name</lable></td>
+               <td><input type="text" name="lname" id="lname" pattern="[a-z]"{10}></td>
+           </tr>
+       
+            <tr>
+               <td><lable for="email">Email</lable></td>
+               <td><input type="email" name="email" id="email"></td>
+           </tr>
+           <tr>
+               <td><lable for="password">password</lable></td>
+               <td><input type="password" name="password" id="password" pattern="[0-9]{4}" title="Eight or more characters"></td>
+           </tr>
+            
+           <tr>
+                <td><lable for="country">country</lable></td>
+                <td><select name="country" id=""><option value="">Ethiopia</option></select></td>>
+           </tr>
+       
+            <tr>
+                <td><lable for="detail">what do you say?</lable></td>
+                <td><input type="detail" name="detail" id="detail"></td>
+           </tr>
+            
+            <tr><td></td><td></td><td></td>
+                <td><input type="submit" name="submit" id="submit"></td>
+            </tr>
+         </form>
+       </table> 
             </td>
-            <td>
-                <h1>Mekides Bishaw</h1>  
-                <h3>student, Addis Abeba university</h3> 
-                <p>
-                    My name is mekides bishaw. i am a student in AAit.
-                </p>
-            </td>
-        </tr>
-    </table>
- 
- 
- <hr>
- <h3>list of Hobbies or Interest</h3>
- <ul>
-    <li>Sport : I like to watch 
-        <ul>
-            <li>movies</li>
-            <li>BasketBall</li>
-            <li>VollyBall</li>
-        </ul>
-    </li>
-    <li>Reading Books
-        <ul>
-            <li>Fictions specialy of literatuer 
-                <li>Books that impress me the most  : 
-                    <ul>
-                        <li>Lela Sew by Dr. Mihret Debebe </li>
-                        <li>Merbebt by Dr. Alemayehu Wase</li>
-                    </ul>
-                 </li>
-            </li>  
-        </ul>
-    </li>
-    <hr>
-    
-<table>
-    <tr>
-        <td>
-            <h3>Work experiance</h3>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            10/05/2012
-        </td>
-        <td>
-            designing web
-        </td>
-    </tr>
-</table>
-
-
+            </tr>
+                </table>
 </body>
 </html>
