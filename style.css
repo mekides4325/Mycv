@@ -1,4 +1,4 @@
-body{
+/* body{
      background-color: skyblue;  
      margin: 20px;
 }
@@ -10,7 +10,7 @@ header{
 }
 
 a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifa;
     font-size: medium;
     text-decoration: none;
 }
@@ -59,4 +59,144 @@ body{
     font-size: 2rem;
     text-transform: uppercase;
  }
- 
+  */
+  body{
+    background-color: #cccccc;
+  }
+  table{
+      width: 100%;
+      height: 50%;
+      size: 1rem;
+      margin-right: 20px;
+      padding: 5px;
+  }
+  #flag li{
+          height: 150px;
+          list-style-type: none;
+  }
+
+  #flag li:nth-child(1){
+      background-color: #ff9933;
+  }
+  #flag li:nth-child(2){
+    background-color: #ffffff;
+}
+#flag li:nth-child(3){
+    background-color: #138808;
+}
+#circle{
+    height: 140px;
+    width: 140px;
+    border: 3px solid #0000ff;
+    border-radius: 50%;
+    margin: 2px auto;
+
+}
+
+#circle div{
+    position: relative;
+    width: 140px;
+    border: 1px solid #0000ff;
+}
+#div1{
+    top: 70px;
+}
+#div2{
+    top: 68px;
+    transform: rotate(90deg);
+}
+#div3{
+    top: 66px;
+    transform: rotate(15deg);
+}
+#div4{
+    top: 64px;
+    transform: rotate(30deg);
+}
+
+#div5{
+    top: 62px;
+    transform: rotate(45deg);
+}
+#div6{
+    top: 60px;
+    transform: rotate(60deg);
+}
+
+#div7{
+    top: 58px;
+    transform: rotate(75deg);
+}
+
+#div8{
+    top: 56px;
+    transform: rotate(-15deg);
+}
+#div9{
+    top: 54px;
+    transform: rotate(-30deg);
+}
+
+#div10{
+    top: 52px;
+    transform: rotate(-45deg);
+}
+#div11{
+    top: 50px;
+    transform: rotate(-60deg);
+}
+
+#div12{
+    top: 48px;
+    transform: rotate(-75deg);
+}
+
+
+
+
+
+#jf li{
+        height: 150px;
+        list-style-type: none;
+        background-color: white;
+        border: thin solid white;
+}
+#c1{
+  height: 140px;
+  width: 140px;
+  border: 3px solid red;
+  border-radius: 50%;
+  margin: 2px auto;
+  background-color: red;
+}
+
+#peruf li{
+  height: 400px;
+  list-style-type: none;
+  margin: 0px;
+  background-color: red;
+  }
+#p{
+  height: 400px;
+  background-color: white;
+  margin: 2px auto;
+
+}
+
+
+
+#bangladesh li{
+  background-color: green;
+  height: 130px;
+  list-style-type: none;
+  border: thin solid green;
+}
+
+#b{
+  height: 130px;
+  width: 130px;
+  border: 0px solid green;
+  border-radius: 50%;
+  margin: 0px auto;
+  background-color: red;
+}
