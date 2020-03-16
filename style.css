@@ -1,18 +1,19 @@
-/* body{
+ body{
      background-color: skyblue;  
-     margin: 20px;
+     margin: 50px;
 }
 header{
  background-color: rgb(179, 245, 236); 
- position: fixed;
- top: 0px;
- left: 0px;
+ position: relative;
+ top: 10px;
+ left:0px;
 }
 
 a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifa;
     font-size: medium;
     text-decoration: none;
+    padding: 10px;
 }
 section{
     padding: 5px 30px;
@@ -59,7 +60,7 @@ body{
     font-size: 2rem;
     text-transform: uppercase;
  }
-  */
+  
   body{
     background-color: #cccccc;
   }
@@ -69,6 +70,12 @@ body{
       size: 1rem;
       margin-right: 20px;
       padding: 5px;
+  }
+  tr{
+    width: 100%;
+  }
+  td{
+    width: 50%;
   }
   #flag li{
           height: 150px;
@@ -170,24 +177,37 @@ body{
   background-color: red;
 }
 
-#peruf li{
-  height: 400px;
-  list-style-type: none;
-  margin: 0px;
-  background-color: red;
-  }
-#p{
-  height: 400px;
-  background-color: white;
-  margin: 2px auto;
+
+
+#pe{
+ width: 100%;
+margin:30px;
 
 }
+#pr{
+  height: 410px;
+  width: 100%;
+}
 
+#pd1 {
+  background-color: red;
+  width: 33%;
+}
+
+#pd2 {
+  background-color: white;
+  width: 33%;
+}
+
+#pd3 {
+  background-color: red;
+  width: 33%;
+}
 
 
 #bangladesh li{
   background-color: green;
-  height: 130px;
+  height: 136.6px;
   list-style-type: none;
   border: thin solid green;
 }
@@ -195,8 +215,118 @@ body{
 #b{
   height: 130px;
   width: 130px;
-  border: 0px solid green;
+  border: 0px solid red;
   border-radius: 50%;
   margin: 0px auto;
   background-color: red;
+}
+
+
+.american-flag{
+  position: relative;
+  margin: auto;
+  left: 25px;
+  height: 390px;
+  width: 640px;
+  background-color: #e71029 ;
+
+}
+
+.american-flag::after{
+  content: '';
+  top: 30px;
+  height: 30px;
+  width: 640px;
+  position: absolute; 
+  background-color: white;
+  box-shadow:  0 60px 0 0 white,
+  0 120px 0 0 white,
+  0 180px 0 0 white,
+  0 240px 0 0 white,
+  0 300px 0 0 white;  
+}
+
+ .american-flag::before{
+  content: '☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ☆ ' ;
+  font-size: 40px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+  position: absolute;
+  background-color: #080868;
+  width: 300px;
+  height: 210px;
+  z-index: 1;
+} 
+
+
+  #Ef li{
+    height: 130px;
+    list-style-type: none;
+
+  }
+  #Ef li:nth-child(1){
+    background-color: green;
+}
+#Ef li:nth-child(2){
+  background-color: yellow;
+}
+#Ef li:nth-child(3){
+  background-color: red;
+}
+#et::before{
+  content: '☆';
+  position: absolute auto;
+  border-radius: 150px;
+  margin-left: 250px;
+  margin-top: 50px ;
+  font-size: 90px;
+  color: yellow;
+ 
+  background-color:blue;
+}
+
+#dominican{
+  margin: 30px;
+  background-color: white;
+}
+
+
+#dominican tr{
+  position: relative;
+  height: 205px;
+  width: 600px;
+  background-color: white;
+}
+#dt{
+  width: 600px;
+  height: 103px;
+}
+#da li:nth-child(1){
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+  list-style-type: none;
+  position: relative;
+}
+#da li:nth-child(2){
+  background-color: red;
+  list-style-type: none;
+}
+#dc li:nth-child(1){
+  background-color: red;
+  list-style-type: none;
+}
+#dd li:nth-child(2){
+  background-color: blue;
+  list-style-type: none;
+}
+
+
+/* css for myworks.html */
+p{
+ text-align: justify;
+ padding: 1px;
+ font-size: 20px;
+ te
 }
