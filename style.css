@@ -10,8 +10,9 @@ header{
 }
 
 a{
+  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifa;
-    font-size: medium;
+    font-size: 15px;
     text-decoration: none;
     padding: 10px;
 }
@@ -328,5 +329,46 @@ p{
  text-align: justify;
  padding: 1px;
  font-size: 20px;
- te
 }
+
+#mw td{
+  margin: 1em auto;
+  padding: 50px;
+  width: 30px;
+  background-color: aqua;
+}
+
+
+#ld{
+
+  margin: 200px auto;
+}
+
+#ladder{
+  margin: 100px auto;
+  width: 70%;
+  height: 5px;
+  background-color: black;
+}
+#ladderb{
+  margin: auto;
+  width: 70%;
+  height: 5px;
+  background-color: black;
+}
+#ladderc{
+ margin-right: auto;
+  width: 75%;
+  height: 5px;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+ #ladderd{
+  margin-left: auto;
+  width: 75%;
+  height: 5px;
+  background-color: black;
+  transform: rotate(90deg);
+  
+} 
