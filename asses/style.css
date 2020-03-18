@@ -2,6 +2,7 @@
 body{
      background-color: skyblue;  
      margin: 15px;
+     width: 100%;
 }
 header{
  background-color: rgb(179, 245, 236); 
@@ -10,9 +11,9 @@ header{
 }
 
 a{
-  
+   
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifa;
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
     padding: 15px;
 }
@@ -30,12 +31,12 @@ img{
 }
 #pl{
   border-bottom: black solid 1px;
-  margin: 45px;
+  margin: 5px;
 }
 #hp{
   position: relative;
-  bottom: 405px;
-  left: 530px;
+  top: 0px;
+  left: 5px
   
 }
 #index{
@@ -298,19 +299,21 @@ margin:30px;
 
 #turk{
   position: relative;
-  top: 35px;
-  left: 24px;
-
+  top: 10px;
+  left: 15px;
+  height: 390PX;
+  margin: 60px;
+  padding-top: 15px;
   background-color: red;
 }
 #et::before{
   content: '☪';
   position: relative;
-  right: 150px;
-  bottom: 50px;
+  right: 100px;
+  bottom: 150px;
   margin-left: 250px;
-  margin-top: 0px ;
-  font-size: 120px;
+  margin-bottom: 60px ;
+  font-size: 100px;
   color: white;
 
 }
@@ -320,6 +323,8 @@ margin:30px;
 #gu{
   width: 100%;
  margin:30px;
+ position: relative;
+ left: 8PX;
  
  }
  #gur{
@@ -348,7 +353,7 @@ margin:30px;
   height: 130px;
   list-style-type: none;
   position: relative;
-  top: 80px;
+  bottom: 40PX;
 
 }
 #colof li:nth-child(1){
@@ -365,11 +370,18 @@ background-color:red;
 
 
 /* Rwanda flag */
+#rwandaf{
+  position: relative;
+  top: 80px;
+  right: 20px;
+  width: 100%;
+}
 #rwandaf li{
   height: 130px;
   list-style-type: none;
   position: relative;
-  top: 80px;
+  bottom: 120PX;
+
 
 }
 #rwandaf li:nth-child(1){
@@ -394,22 +406,72 @@ background-color:green;
 
 }
 
+/* cotdivar flag */
 
+#cotdivar{
+  position: relative;
+  top: 70px;
+  right: 20px;
+  width: 100%;
+ margin:30px;
+ 
+ }
+ #cotdivarr{
+   height: 410px;
+   width: 100%;
+ }
+ 
+ #cotdivar1 {
+   background-color: orange;
+   width: 33%;
+ }
+ 
+ #cotdivar2 {
+   background-color: white;
+   width: 33%;
+ }
+ 
+ #cotdivar3 {
+   background-color:green;
+   width: 33%;
+ }
 
+/* romania flag */
 
-/* css for myworks.html */
-p{
- text-align: justify;
- padding: 1px;
- font-size: 20px;
+#romania{
+  position: relative;
+  top: 70px;
+  right: 20px;
+  width: 100%;
+ margin:30px;
+ 
+ }
+
+#romaniar{
+  height: 410px;
+  width: 100%;
 }
 
-#mw td{
-  margin: 1em auto;
-  padding: 50px;
-  width: 30px;
+#romania1 {
+  background-color: darkblue;
+  width: 33%;
+}
+
+#romania2 {
+  background-color:  yellow;
+  width: 33%;
+}
+
+#romania3 {
+  background-color: red;
+  width: 33%;
+}
+
+#bof{
   background-color: aqua;
+  align-items: center;
 }
+
 
 /* css styling for Question2.html */
 #ld{
@@ -509,4 +571,74 @@ input[type="submit"]{
   height: 30px;
   top: 50px;
   left: 100px;
+}
+
+
+/* css for myworks.html */
+p{
+  text-align: justify;
+  padding: 1px;
+  font-size: 20px;
+ }
+ 
+#mw td{
+  position: relative;
+  top: 50px;
+  padding: 50px;
+  width: 30px;
+  background-color: aqua;
+}
+
+#mw a{
+  position: relative;
+  left: 20px;
+  padding: 30px;
+  margin: 50px;
+}
+
+
+#mw a:visited{
+  color:green;
+ font-size: 35px;
+}
+
+
+#mw a:hover{
+   color: red;
+  font-size: 35px;
+}
+
+/* #a1{
+  border-collapse: initial;
+  box-shadow: blanchedalmond;
+} */
+
+
+
+
+
+
+
+td h3{
+  text-align: center;
+}
+
+.blog{
+  position: relative;
+  top: 18px;
+  margin: 25px;
+  background-color: aliceblue; 
+  box-shadow: 3px 3px 3px 2px black; 
+  height: 100%; 
+  width: 95%; 
+  padding: 5px ;
+}
+.blog h4{
+  font-size: 20px;
+  font-style: normal;
+  margin: 5px;
+}
+.blog p{
+  font-size: 15px;
+  font-style: normal;
 }
