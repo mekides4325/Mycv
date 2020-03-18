@@ -6,65 +6,40 @@
     <title>Contact Form</title>
     <link rel="shortcut icon" type="image/png" href="./asses/images/logo.PNG">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./asses/style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
         <li><a href="index.html">HOME</a></li>
-       <li><a href="Gallery.html">GALLERY</a></li>
+       <li><a href="gallery.html">GALLERY</a></li>
        <li> <a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-    </header>  
-    <table>
-        <tr>
-            <td>
+    </header> 
+    <div id="map">
             <iframe width="600" height="500"
             src="https://maps.google.com/maps?q=AAiT&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </td>
-        <td>
-            <table>
-                
+        </div>
+           <div id="form">    
         <form method="POST" action="mailto,se.mekides.bishaw@gmail.com" enctype="utf-8"></form>
-        <tr>
-            <td><lable for="fname">first name</lable></td>
-            <td><input type="text" name="fname" id="fname" pattern="[A-Za-z]{4-12}"></td>
-           </tr>
-       
-           <tr> 
-               <td><lable for="fname">last name</lable></td>
-               <td><input type="text" name="lname" id="lname" pattern="[a-z]"{10}></td>
-           </tr>
-       
-            <tr>
-               <td><lable for="email">Email</lable></td>
-               <td><input type="email" name="email" id="email"></td>
-           </tr>
-           <tr>
-               <td><lable for="password">password</lable></td>
-               <td><input type="password" name="password" id="password" pattern="[0-9]{4}" title="Eight or more characters"></td>
-           </tr>
-            
-           <tr>
-                <td><lable for="country">country</lable></td>
-                <td><select name="country" id=""><option value="">Ethiopia</option><option value="">kenya</option><option value="">UK</option></select></td>>
-           </tr>
-       
-            <tr>
-                <td><lable for="detail">what do you say?</lable></td>
-                <td><input type="detail" name="detail" id="detail"></td>
-           </tr>
-            
-            <tr><td></td><td></td><td></td>
-                <td><input type="submit" name="submit" id="submit"></td>
-            </tr>
-         </form>
-       </table> 
-            </td>
-            </tr>
-                </table>
+     
+           <lable for="fname">first name</lable>
+          <input type="text" name="fname" id="fname" pattern="[A-Za-z]{4-12}"><br>
+           <lable for="fname">last name</lable>&nbsp;
+            <input type="text" name="lname" id="lname" pattern="[a-z]"{10}><br>
+           <lable for="email">E-mail</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="email" name="email" id="email"><br>
+           <lable for="password">password</lable>&nbsp;&nbsp;
+            <input type="password" name="password" id="password" pattern="[0-9]{4}" title="Eight or more characters"><br>
+            <lable for="country">country</lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="country" id=""><option value="">Ethiopia</option><option value="">kenya</option><option value="">UK</option></select><br>
+            <lable for="detail">what do you say?</lable>
+            <input type="detail" name="detail" id="detail"><br>
+           <input type="submit" name="submit" id="submit">
+           </form>
+         </div>
 </body>
 </html>
