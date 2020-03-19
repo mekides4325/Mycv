@@ -16,37 +16,57 @@
 </header>
     <Div id="content">
 <section class="blog">
-    <p class="title">4th Question</p>
+    
     <article id="a1">
-        <p>Does it matter to use relative size
+        <p>1.Does it matter to use relative size
             (%em,rem) one styling the size of an element
              so that the element is responsive? why? </p>
+<br><p>Yes it matters.Because Using em for font size can be tricky.
+     The exact value is determined by the element's inherited font 
+     size or from the font size of the parent element. This gets 
+     complicated when nesting elements more deeply. 
+     If an element has a font size in em, its parent has a font 
+     size in em, and its parent has yet another. so to determine the actual 
+     computed value of the child element we will have 
+     to multiply all these values.<br>
+     rem stands for “Root em”. It is a relative unit of CSS and translated by
+     the browser to pixels (px). When rem is used on the font-size in the root
+      element, it represents its initial value.Because the content should adjust 
+      to the size of the device. 
+
+      If we want to keep the font-size responsive to the device, then we must change the root html element.
+ 
+</p>
     </article>
-    <p class="Date">march 13 2020</p>
+    <p class="Date">march 18 2020</p>
+    <p>source</p><a href="https://opensenselabs.com/blog/tech/rem-vs-em-vs-px-when-use-these-units">https://opensenselabs.com/blog/tech/rem-vs-em-vs-px-when-use-these-units</a>
 </section>
 </Div>
 
 
     <Div id="content">
         <section  class="blog">
-            <p class="title">5th Question</p>
+         
             <article id="a2">
                 <p>2. we said 16px is default browser width so
                     what does it mean when we say 200px?
-                How does the browser interpret that</p>
+                How does the browser interpret that</p><br>
+                <p>when we say the default width of the browser is 16px we mean that its intial 100% width is 16px.And then when we say 200px
+                    we mean that the default 16px will be changed to 200px.Its all for calculation purpose.
+                <br>it simply means changing<br> 100%=16px into 100%=200px</p>
             </article>
-            <p class="Date">march 13 2020</p>
+            <p class="Date">march 18 2020</p>
         </section>
         </Div>
 
 
             <Div id="content">
                 <section  class="blog">
-                    <p class="title">6th Question </p>
+                   
                     <article id="a3">
-                        <p>Explain in detail(in technical terms) the
+                        <p>3.Explain in detail(in technical terms) the
         specific change in css3</p><br>
-       <h4>1. CSS 3 Selectors</h4><br><p>In addition to the selectors 
+       <h4>3.1 CSS 3 Selectors</h4><br><p>In addition to the selectors 
             that were available in CSS2, CSS 3 introduces some 
             new selectors. Using these selectors you can choose DOM
      elements based on their attributes. So you don't need to specify 
@@ -57,36 +77,36 @@
      <li></li>[attr$=val] Â- matches a DOM element with the attribute attr and a value ending with the suffix val</li>
      <li></li>[attr*=val] Â- matches a DOM element with the attribute attr and a value containing the substring val</li>
     </ul>
-<br><h4>2. CSS 3 Rounded Corners</h4><br><p>
+<br><h4>3.2 CSS 3 Rounded Corners</h4><br><p>
 Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to write a lot of code. Adjusting the height, width and positioning of these elements is a never-ending chore because any change in content can break them.
 
 CSS 3 addresses this problem by introducing the border-radius property, which gives the same rounded-corner effect and it doesn't has to be written all the code.
 </p><br>
-<h4>3. CSS 3 Border Image</h4><br>
+<h4>3.3 CSS 3 Border Image</h4><br>
 <p>Another exciting feature in CSS 3 is the ability to swap out a border with an image. The property border-image allows to specify an image to display instead of a plain solid-colored border.</p>
                     
-<br><h4>4. CSS 3 Box Shadow</h4><br>
+<br><h4>3.4 CSS 3 Box Shadow</h4><br>
 <p> A box shadow allows to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.</p>
 
 
 
-<br><h4>5. CSS 3 Text Shadow</h4><br><p>
+<br><h4>3.5 CSS 3 Text Shadow</h4><br><p>
     The new text-shadow property allows you to add drop shadows to the text on a webpage. Prior to CSS 3, this would be done by either using an image or duplicating a text element and then positioning it.</p>
 
-<br><h4>6. CSS 3 Gradient</h4><br>
+<br><h4>3.6 CSS 3 Gradient</h4><br>
 <p>While the Gradient effect is a sleek Web design tool, it can be a drain on resources if not implemented correctly using current CSS techniques. Some designers use a complete image and put in the background for the gradient effect, which increases the page load time.</p>
 
-<br><h4>7. CSS 3 RGBA: Color, Now with Opacity</h4><br>
+<br><h4>3.7 CSS 3 RGBA: Color, Now with Opacity</h4><br>
 <p>The RGB property in CSS is used to set colors for different elements. CSS 3 introduces a modification and added opacity manipulation to this property. RGB has been transformed to RGBA (Red Green Blue Alpha channels), which simplifies how you control the opacity of elements.
-<br><h4>8. CSS 3 Transform (Element Rotation)</h4><br>
+<br><h4>3.8 CSS 3 Transform (Element Rotation)</h4><br>
 <P>CSS 3 also introduced a property called transform, which enables rotating Web elements on a webpage. As of now, if a designer wants to rotate of an element, he or she uses JavaScript. Many JavaScript extensions/plugins are available online for this feature, but they can make the code cumbersome and most importantly consume more resources.</P>
 </p>
-<br><h4>9. CSS 3 Multicolumn Layout</h4><br>
+<br><h4>3.9 CSS 3 Multicolumn Layout</h4><br>
 <p>Almost every webpage today is divided into columns or boxes, and adjusting these boxes so they display correctly on different browsers takes a toll on Web designers. CSS 3 solves this problem with the multicolumn layout property; all you have to do is specify the number of columns you need and they will be created.
 
     This property is currently supported by the Firefox and WebKit browsers.</p>
 
-<br><h4>10. CSS 3 Web Fonts</h4><br>
+<br><h4>3.10 CSS 3 Web Fonts</h4><br>
 <p>CSS 3 also facilitates embedding any custom font on a webpage. Fonts are dependent on the client system and Web pages can render only fonts that are supported by the browser or the client machine. By using the @font-face property, you can include the font from a remote location and can then use it.</p>
 
 

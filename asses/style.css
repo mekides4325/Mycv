@@ -1,4 +1,5 @@
 /* css stayling for mycv index.html */
+
 body{
      background-color: skyblue;  
      margin: 15px;
@@ -7,7 +8,6 @@ body{
 header{
  background-color: rgb(179, 245, 236); 
  position: relative;
-
 }
 
 a{
@@ -67,9 +67,7 @@ nav > UL > LI{
  NAV > ul > li > a{
      text-decoration: none;
  }
- nav > UL > li {
-     
- }
+
  #test{
     font-size: 20px;
     color: red;
@@ -94,10 +92,12 @@ body{
     width: 100%;
   }
   td{
-    width: 50%;
+    width: 45%;
   }
 
-/* indian flag */
+
+
+
 
   #flag li{
           height: 150px;
@@ -298,26 +298,33 @@ margin:30px;
 /* turkiy */
 
 #turk{
-  position: relative;
-  top: 10px;
+  /* position: relative;
+  top: 15px;
   left: 15px;
-  height: 390PX;
-  margin: 60px;
-  padding-top: 15px;
+  margin: 100px;
+  padding-top: 15px; */
+  position: absolute;
+  width: 650px;
+  height: 455px;
+  margin-top: 120px;
+  margin-left: 30px;
   background-color: red;
 }
 #et::before{
   content: '☪';
   position: relative;
   right: 100px;
-  bottom: 150px;
+  bottom: 100px;
   margin-left: 250px;
   margin-bottom: 60px ;
   font-size: 100px;
   color: white;
 
 }
-
+#tt{
+  position: relative;
+  bottom: 120px;
+}
 
 /* Guinea flag */
 #gu{
@@ -410,7 +417,7 @@ background-color:green;
 
 #cotdivar{
   position: relative;
-  top: 70px;
+  top: 5px;
   right: 20px;
   width: 100%;
  margin:30px;
@@ -440,7 +447,7 @@ background-color:green;
 
 #romania{
   position: relative;
-  top: 70px;
+  top: 5px;
   right: 20px;
   width: 100%;
  margin:30px;
@@ -493,7 +500,7 @@ background-color:green;
   top: 150px;
   left: 30px;
   height: 5px;
-  background-color: yellow;
+  background-color: black;
 }
 #ladderc{
   position: relative;
@@ -503,7 +510,7 @@ background-color:green;
   height: 2px;
   background-color: black;
   transform: rotate(90deg);
-  border: green solid 1px;
+  border: black solid 1px;
 }
 
  #ladderd{
@@ -514,7 +521,7 @@ background-color:green;
   height: 2px;
   background-color: black;
   transform: rotate(90deg);
-  border: red solid 1px;
+  border: black solid 1px;
   
 } 
 
@@ -559,6 +566,8 @@ padding: 15px;
   margin: 10px;
 }
 
+
+
 #map{
   float: left;
   margin: 45px;
@@ -581,19 +590,17 @@ p{
   font-size: 20px;
  }
  
-#mw td{
-  position: relative;
-  top: 50px;
-  padding: 50px;
-  width: 30px;
-  background-color: aqua;
-}
-
+ #mw{
+   position: relative;
+   top: 100px;
+   width: 100%;
+  display: flex;
+ }
 #mw a{
-  position: relative;
-  left: 20px;
-  padding: 30px;
-  margin: 50px;
+   position: relative; 
+  background-color: aqua;
+  flex: 1;
+  margin: 25px;
 }
 
 
@@ -626,11 +633,11 @@ td h3{
 .blog{
   position: relative;
   top: 18px;
-  margin: 25px;
+  margin: 40px;
   background-color: aliceblue; 
   box-shadow: 3px 3px 3px 2px black; 
   height: 100%; 
-  width: 95%; 
+  width: 90%; 
   padding: 5px ;
 }
 .blog h4{
@@ -641,4 +648,13 @@ td h3{
 .blog p{
   font-size: 15px;
   font-style: normal;
+}
+
+
+
+@media screen and (max-width:50%) {
+  body{
+    width: 100%;
+  }
+     
 }
